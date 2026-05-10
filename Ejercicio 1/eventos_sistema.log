@@ -1,0 +1,56 @@
+[2026-05-10 19:42:32] [INFO] Cliente registrado: Carlos Mendoza (CC: 1098234567)
+[2026-05-10 19:42:32] [ERROR] Registro rechazado (esperado) — ErrorClienteInvalido: [Error CLI-001] Correo inválido: 'correo_mal_formado'.
+[2026-05-10 19:42:32] [ERROR] Cedula duplicada detectada (esperado) — ErrorClienteInvalido: [Error CLI-001] Ya existe un cliente con cédula 1098234567.
+[2026-05-10 19:42:32] [INFO] Cliente registrado: Ana Gutierrez (CC: 987654321)
+[2026-05-10 19:42:32] [INFO] Servicio creado: Sala 'Sala Alfa', capacidad 15 personas.
+[2026-05-10 19:42:32] [INFO] Servicio creado: Equipo 'Laptop ProX' (laptop x3).
+[2026-05-10 19:42:32] [INFO] Servicio creado: Asesoría 'Consultoria de Software' | Área: software | Experto: Sí.
+[2026-05-10 19:42:32] [ERROR] Tipo de equipo invalido detectado (esperado) — ErrorParametroInvalido: [Error PAR-001] Parámetro inválido: 'tipo_equipo' = 'microondas'
+[2026-05-10 19:42:32] [INFO] Reserva #1 creada — Cliente: Carlos Mendoza | Servicio: Sala Alfa | Duración: 3h
+[2026-05-10 19:42:32] [EVENTO] Reserva #1 CONFIRMADA — Cliente: Carlos Mendoza | Servicio: Sala Alfa | Costo: $285,600.00
+[2026-05-10 19:42:32] [INFO] Intento de confirmación procesado para reserva #1
+[2026-05-10 19:42:32] [ERROR] Capacidad excedida detectada (esperado) — ErrorReservaInvalida: [Error RES-001] No se pudo crear la reserva: No hay capacidad: se solicitaron 99 asistentes pero la sala tiene capacidad para 15.
+[2026-05-10 19:42:32] [INFO] Reserva #2 creada — Cliente: Ana Gutierrez | Servicio: Consultoria de Software | Duración: 2h
+[2026-05-10 19:42:32] [EVENTO] Reserva #2 CONFIRMADA — Cliente: Ana Gutierrez | Servicio: Consultoria de Software | Costo: $324,000.00
+[2026-05-10 19:42:32] [INFO] Intento de confirmación procesado para reserva #2
+[2026-05-10 19:42:32] [INFO] Intento de confirmación procesado para reserva #1
+[2026-05-10 19:42:32] [ERROR] Doble confirmacion bloqueada (esperado) — ErrorOperacionNoPermitida: [Error OPE-001] Operación 'confirmar' no permitida: La reserva está en estado 'confirmada', no 'pendiente'.
+[2026-05-10 19:42:32] [ADVERTENCIA] Servicio desactivado: Laptop ProX
+[2026-05-10 19:42:32] [ERROR] Servicio no disponible detectado (esperado) — ErrorServicioNoDisponible: [Error SRV-001] El servicio 'Laptop ProX' no está disponible.
+[2026-05-10 19:42:32] [INFO] Servicio activado: Laptop ProX
+[2026-05-10 19:42:32] [INFO] Reserva #3 creada — Cliente: Ana Gutierrez | Servicio: Laptop ProX | Duración: 5h
+[2026-05-10 19:42:32] [EVENTO] Reserva #3 CONFIRMADA — Cliente: Ana Gutierrez | Servicio: Laptop ProX | Costo: $371,875.00
+[2026-05-10 19:42:32] [INFO] Intento de confirmación procesado para reserva #3
+[2026-05-10 19:42:32] [EVENTO] Reserva #3 CANCELADA — Motivo: El cliente reagendo la sesion. | Estado anterior: confirmada
+[2026-05-10 19:42:32] [INFO] Intento de cancelación procesado para reserva #3
+[2026-05-10 19:42:32] [ERROR] Duracion invalida detectada (esperado) — ErrorDuracionInvalida: [Error DUR-001] Duración inválida: -2.0. Debe ser un número positivo.
+[2026-05-10 19:42:32] [ERROR] Reserva invalida (esperado) — ErrorReservaInvalida: [Error RES-001] No se pudo crear la reserva: [Error PAR-001] Parámetro inválido: 'tema' = 'ok'
+[2026-05-10 19:42:32] [EVENTO] Simulacion completa finalizada exitosamente.
+[2026-05-10 19:46:08] [INFO] Cliente registrado: Carlos Mendoza (CC: 1098234567)
+[2026-05-10 19:46:08] [ERROR] Registro rechazado (esperado) — ErrorClienteInvalido: [Error CLI-001] Correo inválido: 'correo_mal_formado'.
+[2026-05-10 19:46:08] [ERROR] Cedula duplicada detectada (esperado) — ErrorClienteInvalido: [Error CLI-001] Ya existe un cliente con cédula 1098234567.
+[2026-05-10 19:46:08] [INFO] Cliente registrado: Ana Gutierrez (CC: 987654321)
+[2026-05-10 19:46:08] [INFO] Servicio creado: Sala 'Sala Alfa', capacidad 15 personas.
+[2026-05-10 19:46:08] [INFO] Servicio creado: Equipo 'Laptop ProX' (laptop x3).
+[2026-05-10 19:46:08] [INFO] Servicio creado: Asesoría 'Consultoria de Software' | Área: software | Experto: Sí.
+[2026-05-10 19:46:08] [ERROR] Tipo de equipo invalido detectado (esperado) — ErrorParametroInvalido: [Error PAR-001] Parámetro inválido: 'tipo_equipo' = 'microondas'
+[2026-05-10 19:46:08] [INFO] Reserva #1 creada — Cliente: Carlos Mendoza | Servicio: Sala Alfa | Duración: 3h
+[2026-05-10 19:46:08] [EVENTO] Reserva #1 CONFIRMADA — Cliente: Carlos Mendoza | Servicio: Sala Alfa | Costo: $285,600.00
+[2026-05-10 19:46:08] [INFO] Intento de confirmación procesado para reserva #1
+[2026-05-10 19:46:08] [ERROR] Capacidad excedida detectada (esperado) — ErrorReservaInvalida: [Error RES-001] No se pudo crear la reserva: No hay capacidad: se solicitaron 99 asistentes pero la sala tiene capacidad para 15.
+[2026-05-10 19:46:08] [INFO] Reserva #2 creada — Cliente: Ana Gutierrez | Servicio: Consultoria de Software | Duración: 2h
+[2026-05-10 19:46:08] [EVENTO] Reserva #2 CONFIRMADA — Cliente: Ana Gutierrez | Servicio: Consultoria de Software | Costo: $324,000.00
+[2026-05-10 19:46:08] [INFO] Intento de confirmación procesado para reserva #2
+[2026-05-10 19:46:08] [INFO] Intento de confirmación procesado para reserva #1
+[2026-05-10 19:46:08] [ERROR] Doble confirmacion bloqueada (esperado) — ErrorOperacionNoPermitida: [Error OPE-001] Operación 'confirmar' no permitida: La reserva está en estado 'confirmada', no 'pendiente'.
+[2026-05-10 19:46:08] [ADVERTENCIA] Servicio desactivado: Laptop ProX
+[2026-05-10 19:46:08] [ERROR] Servicio no disponible detectado (esperado) — ErrorServicioNoDisponible: [Error SRV-001] El servicio 'Laptop ProX' no está disponible.
+[2026-05-10 19:46:08] [INFO] Servicio activado: Laptop ProX
+[2026-05-10 19:46:08] [INFO] Reserva #3 creada — Cliente: Ana Gutierrez | Servicio: Laptop ProX | Duración: 5h
+[2026-05-10 19:46:08] [EVENTO] Reserva #3 CONFIRMADA — Cliente: Ana Gutierrez | Servicio: Laptop ProX | Costo: $371,875.00
+[2026-05-10 19:46:08] [INFO] Intento de confirmación procesado para reserva #3
+[2026-05-10 19:46:08] [EVENTO] Reserva #3 CANCELADA — Motivo: El cliente reagendo la sesion. | Estado anterior: confirmada
+[2026-05-10 19:46:08] [INFO] Intento de cancelación procesado para reserva #3
+[2026-05-10 19:46:08] [ERROR] Duracion invalida detectada (esperado) — ErrorDuracionInvalida: [Error DUR-001] Duración inválida: -2.0. Debe ser un número positivo.
+[2026-05-10 19:46:08] [ERROR] Reserva invalida (esperado) — ErrorReservaInvalida: [Error RES-001] No se pudo crear la reserva: [Error PAR-001] Parámetro inválido: 'tema' = 'ok'
+[2026-05-10 19:46:08] [EVENTO] Simulacion completa finalizada exitosamente.
