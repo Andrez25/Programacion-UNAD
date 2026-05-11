@@ -15,7 +15,7 @@ Sistema orientado a objetos desarrollado en Python para gestionar clientes, serv
 ## Estructura del proyecto
 
 ```
-sistema/
+Ejercicio 1/
 ├── main.py            # Punto de entrada — ejecuta la simulación completa
 ├── entidad_base.py    # Clase abstracta base del sistema
 ├── cliente.py         # Clase Cliente con validaciones y encapsulación
@@ -31,7 +31,7 @@ sistema/
 ## Cómo ejecutar
 
 ```bash
-cd sistema
+cd Ejercicio 1
 python main.py
 ```
 
