@@ -105,4 +105,3 @@ El archivo `main.py` ejecuta 14 operaciones que demuestran el funcionamiento com
 Cada operación queda registrada en `eventos_sistema.log` con marca de tiempo, nivel y detalle del evento. El sistema nunca se detiene ante errores; los captura, los registra y continúa ejecutando.
 
 
-Sergio Andrez Rueda Soto
